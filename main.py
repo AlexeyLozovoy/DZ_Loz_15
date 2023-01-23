@@ -9,3 +9,15 @@ class Kvadrat:
 
 kv = float(input("Ведите сторону квадрата: "))
 pkv = Kvadrat(kv)
+
+
+class Pryamougolnik:
+    def __init__(self, StoronaA, StoronaB):
+        self.StoronaA = StoronaA
+        self.StoronaB = StoronaB
+        pkv = StoronaA * StoronaB
+        print("Площадь прямоугольника: ", pkv)
+
+storonaA = float(input("Ведите сторону прямоугольника А: "))
+storonaB = float(input("Ведите сторону прямоугольника Б: "))
+ppu = Pryamougolnik(storonaA, storonaB)
